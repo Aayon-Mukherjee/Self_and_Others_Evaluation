@@ -45,11 +45,21 @@ My formulae were:
     For Average =Avg(C3:J3)
 
 ## TEST CASES:
-|Trial|Description|Result|
-|-----|-----------|------|
-|Adding Individual category|First I tried to segregate all the elements like good and fair, then summing them up individually for every name and adding the total, then dividing it by total no. to get the average.|The test result was **SUCCESSFULL**, but the whole process was a lot complex and time consuming|
-|Calling Values| I tried to call all the values individually in a copy sheet and then taking out their average in the same copy sheet. I basically pulled the value from skills chart to copy sheet and pushed average column from copy sheet to skills chart which was much easier to do and also worked properly on real time basis.|The test result was **SUCCESSFULL** and also it was much easier to implement.|
+|S No.|Task|Formula Used|Output|Test Result|
+|-----|----|------------|------|-----------|
+|1|Adding Individual category|Count Func **=COUNT(A1:A20)**|Error|**FAIL**|
+|2|Calling Values|Vlookup Func **==VLOOKUP(B4,Copy!B3:K3,10)**|Correct Average|**PASS**|
 
+---
+
+## Description of **TEST CASE 1**:
+
+First I tried to segregate all the elements like good and fair, then summing them up individually for every name and adding the total, then dividing it by total no. to get the average. The whole process was a bit complex which consumed a lot of time and also showed some errors.
+
+## Description of **TEST CASE 2**:
+
+I tried to call all the values individually in a copy sheet and then taking out their average in the same copy sheet. I basically pulled the value from skills chart to copy sheet and pushed average column from copy sheet to skills chart which was much easier to do and also worked properly on real time basis. The result was satisfactory and worked properly on real time basis.
+ 
 ---
 ---
 ## How Was It Implemented?
