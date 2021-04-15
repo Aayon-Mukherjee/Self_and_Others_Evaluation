@@ -1,5 +1,15 @@
 # SELF & OTHER'S EVALUATION
 
+## What Work did I get?
+The work given for the prject was to find an algorithm for the spreadsheet which directly calculates the average of the students based on their performance.
+
+## How Did I Write My Formulae:
+I wrote my formula by using **vlookup** and **avg** functions.
+
+My formulae were:
+
+    =VLOOKUP(B4,Copy!B3:K3,10)
+    =AVERAGE(C3:J3)
 ## OBJECTIVE:
 The objective for **Self & Other's Evaluation** project was to evaluate every person on the basis of their past performance in this course.
 
