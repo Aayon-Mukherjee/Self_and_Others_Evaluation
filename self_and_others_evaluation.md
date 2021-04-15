@@ -1,7 +1,7 @@
 # SELF & OTHER'S EVALUATION
 
 ## What Work did I get?
-The work given for the prject was to find an algorithm for the spreadsheet which directly calculates the average of the students based on their performance.
+The work given for the project was to find an algorithm for the spreadsheet which directly calculates the average of the students based on their performance.
 
 ## How Did I Write My Formulae:
 I wrote my formula by using **vlookup** and **avg** functions.
