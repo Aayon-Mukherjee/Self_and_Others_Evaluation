@@ -1,21 +1,48 @@
-# SELF & OTHER'S EVALUATION
+<h1 align="center"><b>SELF & OTHER'S EVALUATION</b></h1>
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+    <a href="#OBJECTIVE:">Objective</a>
+    </li>
+    <li>
+    <a href="#How Did I Write My Formulae:">How Did I Write My Formulae</a>
+    </li>
+    <li>
+    <a href="#TEST CASES:">Test Cases</a>
+    </li>
+    <li>
+    <a href="#How It Was Implemented?">How It Was Implemented?</a>
+    </li>
+    <li>
+    <a href="#Explanation of Implementation:">Explanation of Implementation:</a>
+    </li>
+    <li>
+    <a href="#Test Results:">Test Results</a>
+    </li>
+    <li>
+    <a href="#Conclusions:">Conclusions</a>
+    </li>
+    <li>
+    <a href="#Contact">Contact</a>
+    </li>
+  </ol>  
+</details>
 
-## What Work did I get?
-The work given for the project was to find an algorithm for the spreadsheet which directly calculates the average of the students based on their performance.
-
-## How Did I Write My Formulae:
-I wrote my formula by using **vlookup** and **avg** functions.
-
-My formulae were:
-
-    =VLOOKUP(B4,Copy!B3:K3,10)
-    =AVERAGE(C3:J3)
 ## OBJECTIVE:
 The objective for **Self & Other's Evaluation** project was to evaluate every person on the basis of their past performance in this course.
 
 After evaluating every person by the words *excellent-5, very good-4, good-3, satisfactory-2, fair-1 and poor 0*, the average of their points were to be displayed in a seperate column.
 
 For the extra task, the objective was to put a red color in the row if the person had earned less than 2.5 average score.
+
+## How Did I Write My Formulae:
+I wrote my formula by using **vlookup** and **avg** functions.
+
+My formulae were:
+
+    For Calling Data =VLOOKUP(B4,Copy!B3:K3,10)
+    For Average =Avg(C3:J3)
 
 ## TEST CASES:
 |Trial|Description|Result|
@@ -25,11 +52,17 @@ For the extra task, the objective was to put a red color in the row if the perso
 
 ---
 ---
-## How It Was Implemented?
+## How Was It Implemented?
 
 Basically the whole idea was to make the whole spreadsheet as simple as possible. So when my mind was out of ideas to think of a formula that could directly find the average of the students, I created a seperate spreadsheet and named it "**COPY**".
 
+<img align="center" src="https://user-images.githubusercontent.com/55484239/114871556-088fa480-9e17-11eb-8f33-26c8a372a36c.JPG" />
+
 I pushed all the data from the original spreadsheet i.e. **Skills Chart** to the copy spreadsheet and got the values in the same. Then I calculated the averages of all the students with a simple function "**=avg**" and pushed all the data to the original spreadsheet which made it to work in real time basis.
+
+After using this formula I have used conditional formating tool. With the help of this we can set a range of value so that if the value got down as per selected range then the color of perticular row or column will change.
+
+<img align="center" src="https://user-images.githubusercontent.com/55484239/114886883-92df0500-9e25-11eb-92d3-1791955a8d89.JPG" />
 
 ## Explanation of Implementation:
 The whole idea was to find a formula to calculate the avg of the students. The challenge for me was to change the array to an intger without actually showing it in the spreadsheet. The method was very simple, let me explain it step by step:
