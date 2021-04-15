@@ -3,25 +3,25 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-    <a href="#OBJECTIVE:">Objective</a>
+    <a href="#OBJECTIVE">Objective</a>
     </li>
     <li>
-    <a href="#How Did I Write My Formulae:">How Did I Write My Formulae</a>
+    <a href="#How Did I Write My Formulae">How Did I Write My Formulae</a>
     </li>
     <li>
-    <a href="#TEST CASES:">Test Cases</a>
+    <a href="#TEST CASES">Test Cases</a>
     </li>
     <li>
-    <a href="#How It Was Implemented?">How It Was Implemented?</a>
+    <a href="#How It Was Implemented">How It Was Implemented?</a>
     </li>
     <li>
-    <a href="#Explanation of Implementation:">Explanation of Implementation:</a>
+    <a href="#Explanation of Implementation">Explanation of Implementation</a>
     </li>
     <li>
-    <a href="#Test Results:">Test Results</a>
+    <a href="#Test Results">Test Results</a>
     </li>
     <li>
-    <a href="#Conclusions:">Conclusions</a>
+    <a href="#Conclusions">Conclusions</a>
     </li>
     <li>
     <a href="#Contact">Contact</a>
